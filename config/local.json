@@ -1,0 +1,4 @@
+{
+  "web3_rpc_url": "https://mainnet.infura.io/v3/335d7bd80d5747f482a8c603c4beae14",
+  "web3socket_url": "wss://mainnet.infura.io/ws/v3/335d7bd80d5747f482a8c603c4beae14"
+}

@@ -1,0 +1,21 @@
+https://polygon-mumbai.infura.io/v3/4458cf4d1689497b9a38b1d6bbf05e78
+wss://polygon-mainnet.infura.io/ws/v3/335d7bd80d5747f482a8c603c4beae14
+"http://51.20.79.166:1545"
+// "https://data-seed-prebsc-2-s1.binance.org:8545/"
+// "https://sepolia.infura.io/v3/"
+// "https://gateway.tenderly.co/public/sepolia"
+"https://eth.llamarpc.com"
+https://mainnet.infura.io/v3/
+wss://ethereum.publicnode.com
+https://sepolia.infura.io/v3/31262d2a0ae44877b3e04a6e73672ff0
+wss://sepolia.infura.io/v3/31262d2a0ae44877b3e04a6e73672ff0
+ws://51.20.79.166:1546	
+
+eth mainnet:https://api.zmok.io/mainnet/oaen6dy8ff6hju9k 
+Tmatic:(BTC erc20): 0x35f131cF4b53038192117f640e161807dBcB0fdF
+
+CNT123 (Tmatic): 0x2d3E954F4f7D4F9C5B54c68275C3a4bdd0d90B70
+
+https://eth-mainnet.g.alchemy.com/v2/bXbSn3fc_OdYaJQxsQav3iaSUdvV9_Ea
+
+wss://eth-mainnet.g.alchemy.com/v2/bXbSn3fc_OdYaJQxsQav3iaSUdvV9_Ea
