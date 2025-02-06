@@ -21,8 +21,8 @@ const _createInstance = async (contract_address) => {
 };
 
 const subscriber = async () => {
-  //   contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP address
-  contract_address = "0x870dC4e13168c4Be844933f383751A4Ef5562469"; // Simple
+    contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP address
+  // contract_address = "0x870dC4e13168c4Be844933f383751A4Ef5562469"; // Simple
 
   await _createInstance(contract_address);
   await fetchEventsInBatches(contract, creationBlock);
