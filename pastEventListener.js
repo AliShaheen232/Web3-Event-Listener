@@ -9,7 +9,9 @@ const transferHex =
   "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef";
 const depositHex = "";
 const withdrawHex =
-  "0xf279e6a1f5e320cca91135676d9cb6e44ca8a08c0b88342bcdb1144f6511b568"; // add events hash and update subscribe's topic
+  "0xf279e6a1f5e320cca91135676d9cb6e44ca8a08c0b88342bcdb1144f6511b568";
+
+  // add events hash and update subscribe's topic
 
 const _createInstance = async (contract_address) => {
   let web3Obj = await createInstance(contract_address);
