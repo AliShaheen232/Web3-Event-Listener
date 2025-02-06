@@ -11,7 +11,7 @@ const depositHex = "";
 const withdrawHex =
   "0xf279e6a1f5e320cca91135676d9cb6e44ca8a08c0b88342bcdb1144f6511b568";
 
-  // add events hash and update subscribe's topic
+// add events hash and update subscribe's topic
 
 const _createInstance = async (contract_address) => {
   let web3Obj = await createInstance(contract_address);
@@ -21,7 +21,7 @@ const _createInstance = async (contract_address) => {
 };
 
 const subscriber = async () => {
-  //   contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP
+  //   contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP address
   contract_address = "0x870dC4e13168c4Be844933f383751A4Ef5562469"; // Simple
 
   await _createInstance(contract_address);
