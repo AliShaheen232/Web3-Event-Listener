@@ -15,9 +15,16 @@ const _createInstance = async (contract_address) => {
   contract = web3Obj.contract;
 };
 
+/**
+ * Subscribes to blockchain logs for the specified contract address and topic.
+ *
+ * @async
+ * @function subscriber
+ * @returns {Promise<void>}
+ */
 const subscriber = async () => {
-  // contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP
-  contract_address = "0x870dC4e13168c4Be844933f383751A4Ef5562469"; // Simple
+  contract_address = "0x632C845EE81d0C6b1b3A53E81c80fa786DAaeBa8"; // LP
+  // contract_address = "0x870dC4e13168c4Be844933f383751A4Ef5562469"; // Simple
 
   await _createInstance(contract_address);
 
