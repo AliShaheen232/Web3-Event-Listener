@@ -9,10 +9,3 @@ module.exports = createInstance = async (address) => {
 
   return { web3, contract };
 };
-
-// module.exports = createInstance = async (address) => {
-//   web3 = await injectedWeb3.getSocket();
-//   contract = new web3.eth.Contract(CONTRACT_ABI, address);
-
-//   return { web3, contract };
-// };
